@@ -1,8 +1,5 @@
 package base
 
-import (
-	"sort"
-)
 
 func Mapkeys(oMap *map[interface{}]interface{}) *[]interface{} {
     var keys = &[]interface{}
